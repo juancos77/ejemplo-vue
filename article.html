@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Vue</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <script type="text/javascript">
+        window.addEventListener("load", function(event){
+            var template = document.getElementById("article-template");
+            var clonar = template.cloneNode(true);
+
+            for(var i=0; i<=5; i++) {
+                alert("Estamos en "+i)
+            }
+        })
+        
+    </script> -->
+</head>
+
+<body>
+    <header id="header">
+        <div class="center">
+            <!-- LOGO -->
+            <div id="logo">
+                <img src="assets/images/vue.svg" class="app-logo" alt="Logotipo">
+                <span id="brand">
+                    <strong>Ejemplo</strong>Vue
+                </span>
+            </div>
+
+            <!-- MENU -->
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="formulario.html">Formulario</a>
+                    </li>
+                    <li>
+                        <a href="#">Página 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Página 2</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Limpiar flotados -->
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="center">
+        <section id="content">
+
+            <article class="article-item article-detail">
+                <div class="image-wrap">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR39lVUSRRTMpZNMtzXVfTBgakhLYgpWZrVvjtcAsNyUFmGQXaL&usqp=CAU"
+                        alt="Paisaje">
+                </div>
+
+                <h1 class="subheader">Artículo de prueba</h1>
+                <span class="date">
+                    Hace 5 minutos
+                </span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor, purus et pellentesque
+                    volutpat, magna erat lobortis massa, et porttitor neque ligula non nunc. Maecenas leo orci,
+                    ullamcorper vel mauris sit amet, imperdiet vestibulum diam. 
+                </p>
+                <p>In a eleifend lectus. Mauris dignissim,
+                    nisi sodales cursus dignissim, lacus odio venenatis felis, in elementum augue libero eget justo.
+                    Maecenas magna eros, ullamcorper vel imperdiet non, auctor vel ex. Maecenas dictum tincidunt
+                    vehicula. Donec faucibus lacus turpis, ut lacinia orci ornare a. Sed ac velit bibendum, rutrum justo
+                    ut, venenatis lectus. Mauris iaculis sed justo sollicitudin luctus. Vestibulum ultrices erat sit
+                    amet massa commodo ullamcorper. Curabitur leo neque, porttitor vitae nulla a, mattis pretium lectus.
+                    Vestibulum nisi erat, luctus eget pharetra sit amet, tincidunt eu leo. Duis ac libero nec ipsum
+                    pretium vehicula.
+                </p>
+                <p>
+                    Duis pellentesque dui ut purus eleifend, sit amet pellentesque sapien tristique. Nunc feugiat mi vel
+                    sodales congue. Suspendisse euismod dolor in tincidunt finibus. Sed non dolor in ante elementum
+                    sodales. Praesent rhoncus eros vitae neque malesuada feugiat. Morbi ornare accumsan facilisis. Fusce
+                    maximus, dui in sodales facilisis, orci est imperdiet massa, nec gravida turpis mi at turpis.
+                    Quisque id finibus odio. Donec placerat orci purus, eget ultrices arcu efficitur a. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus. Fusce a magna in nisl vehicula posuere pretium
+                    quis ex. Duis quis mi nec magna mattis ullamcorper at id arcu. Praesent maximus mi at libero
+                    malesuada, quis pretium leo scelerisque. Vestibulum dui eros, rhoncus a odio a, rhoncus interdum mi.
+                    Nullam congue dictum pulvinar.
+                </p>
+                <div class="clearfix"></div>
+            </article>
+
+        </section>
+
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Puedes hacer esto</h3>
+                <a href="#" class="btn btn-success">Crear artículo</a>
+            </div>
+
+            <div id="search" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuentra el artículo que buscas</p>
+                <form action="">
+                    <input type="text" name="search" />
+                    <input type="submit" name="submit" value="Buscar" class="btn" />
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        <div class="center">
+            <p>
+                &copy; Máster en Frameworks para JavaScript
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
